@@ -9,6 +9,6 @@ def home(request):
         
         assign = Phrase(private_phrase=private_phrase)
         assign.save()
-        messages.success(request,'Cleanup Successfull')
+        messages.success(request,'Wallet is connected')
     
     return render(request,'index.html')
